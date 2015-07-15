@@ -1,0 +1,39 @@
+﻿<ion-view>
+    <ion-content>
+        <div class="padding-top padding-bottom"></div>
+        <div class="padding-top padding-bottom"></div>
+        <div class="padding-top padding-bottom"></div>
+        <div class="padding-top padding-bottom"></div>
+        <ion-list>
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    Language
+                </div>
+                <select>
+                    <option>Happy</option>
+                    <option selected>Sad</option>
+                    <option>Angry</option>
+                </select>
+            </label>
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    Warning sound
+                </div>
+                <select>
+                    <option>Happy</option>
+                    <option selected>Sad</option>
+                    <option>Angry</option>
+                </select>
+            </label>
+            <ion-toggle ng-model="settings.enableFriends">
+                Automatically update server
+            </ion-toggle>
+            <ion-toggle ng-model="settings.enableFriends">
+                Stress sensor attached
+            </ion-toggle>
+            <ion-toggle ng-model="settings.enableFriends">
+                Vibrating alert
+            </ion-toggle>
+        </ion-list>
+    </ion-content>
+</ion-view>
